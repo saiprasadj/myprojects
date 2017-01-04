@@ -1,0 +1,274 @@
+
+    div.navbar-collapse.collapse {
+
+        display: block;
+
+        overflow: hidden;
+
+        max-height: 0px;
+
+        -webkit-transition: max-height .3s ease;
+
+        -moz-transition: max-height .3s ease;
+
+        -o-transition: max-height .3s ease;
+
+        transition: max-height .3s ease;
+
+    }
+
+    div.navbar-collapse.collapse.in {
+
+        max-height: 2000px;
+
+    }
+        
+    .carousel-control{
+
+        /*this css property is for setting the arrow images position and size in carousel slides*/
+        
+          font-size: 60px;
+         /* top: 35px;*/
+        
+    }
+        
+     .carousel-control.left{
+     
+         /*this css property is for removing the extra image and colour addition to carousel slides  on left side*/
+         
+        /* background-image: linear-gradient(to right,rgba(0, 0, 0, 0.01) 0,rgba(0,0,0,0.0001) 100%);*/
+        
+        }
+
+    .carousel-control.right{
+        /*this css property is for removing the extra image and colour addition to carousel slides on right side*/
+        /*
+      background-image: linear-gradient(to right,rgba(249, 246, 246, 0) 0,rgba(244, 231, 231, 0) 100%);*/
+        
+    }
+        
+    .carousel-inner>.item>img, .carousel-inner>.item>a>img{
+    
+        /*this css property is for setting the image font-size*/
+            
+      /*  max-width: 100%;
+        max-height: 5%;*/
+        
+    }
+        
+    .carousel-caption{
+        
+        text-align: left;
+            
+    }
+
+    .carousel-indicators{
+    
+        text-align: right;
+      /* margin: 26px 10px;
+       position: relative;
+       bottom: -490px;*/
+    }
+        
+    .carousel-indicators li{
+        
+        border-radius: 0px;
+        margin: 0px 10px;
+        border:1px solid #FFF;
+        width: 12px;
+        height: 12px;
+    }
+    .carousel-indicators .active{
+        
+        border-radius: 0px;
+        background: #204498 none repeat scroll 0px 0px;
+        width: 12px;
+        height: 12px;
+        margin:0px 10px;
+        margin-right: 10px;
+    }
+        
+    body{
+    
+        background: url('../images/BackgroundImage.png');
+        width:100%;
+        height: 100%;
+    }
+    
+    .content-setter{
+        
+        /*border-right: 1px solid #DBDBDB;
+        background-color: #FFF;
+        text-align: left;
+        padding: 20px 0px;*/
+    
+    }
+        
+    .content-box{
+        
+         /* height: 200px;
+          padding: 5px 0px 0px 5px;
+          position: relative;
+          top: 90px;
+          width: 370px;
+          background-image: url(images/ContentBoxBGImage.png);
+          margin-left: -225px;
+          margin-bottom: 60px;*/
+          
+        
+     }
+    .content-box p {
+        
+      /*  color: #FFF;
+        font-family: "segoe_uiregular",Arial,Helvetica,sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 20px;*/
+    }
+        
+    .jumbotron{
+    
+        background-color: inherit;
+    }
+        
+    .content-box  .slide-right{
+        
+        /*  position: absolute;
+          right: 30px;
+          bottom: 20px;
+          font-size: 20px;
+          opacity: 3.5;
+          text-decoration: none;*/
+    }  
+        
+    .footer-setter{
+        
+        /*background-image:url(images/lovelyblue_converted.jpg);*/
+        /*height: 30px;*/
+        
+         /*This is for Brown*/
+        /*background-color: #731300;*/
+        
+         /*This is for orange*/
+       /* background-color: #e05f03
+        
+        background-color: #6F5499;*/
+        background-color: #08c;
+    }
+        
+    .navbar-inverse{
+        
+        /*background: transparent url("images/Slide8_converted.jpg") repeat-y scroll 0% 0%;*/
+        font-size: 12px;
+        letter-spacing: 0px;
+        border-color: darkgrey;
+        /* This For Brown*/
+        /*background-color: #730000;*/
+        /*This is for orange*/
+      /*  background-color: #e05f03
+        background-color: #6F5499;*/
+        background-color: #08c;
+    }    
+    
+    .navbar-inverse .navbar-nav>li>a {
+        color: #FAF7F7;
+     }
+
+    .navbar-static-top{
+
+        margin-bottom: 12px;
+     }
+    
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+
+    color: #fff;
+    background-color:rgba(154, 207, 211, 0.58);
+    box-shadow: 12px 3px 8px rgba(0, 0, 0, 0.125) inset;
+ }
+
+.navbar-inverse .navbar-nav>.active>a{
+
+    /*background-color: white;*/
+    color: #fff;
+    /*background-color: rgba(154, 207, 211, 0.58);*/
+    box-shadow: 12px 3px 8px rgba(0, 0, 0, 0.125) inset;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover{
+    
+   /* background-color: white;*/
+    /*color: #fff;
+    background-color: rgba(154, 207, 211, 0.58);
+*/
+}   
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+
+    background-color: rgba(154, 207, 211, 0.58);
+}
+
+.border-wrapper{
+    
+/*border-radius: 0px;
+  background-color: white;
+  height: auto;
+  border-color: black;
+  border: ridge;
+  padding: 0px 0.5px;*/
+
+
+}
+
+
+.col-sm-4{
+
+  background-color: rgba(199, 162, 162, 0.32);
+  border-color: black;
+ /* margin-left: 2px;
+  width: 33%;*/
+}
+
+.col-sm-3{
+
+  /*background-color: rgba(199, 162, 162, 0.32);
+  border-color: black;
+  padding: 0px 20px;*/
+  /*margin-left: 2px;
+  width: 24%;*/
+}
+
+.widget-alignment{
+
+    left: 0px;
+}
+
+.img-thumbnail{
+    
+    background-color: bisque;
+    padding: 0px;
+}
+
+.fontAndColor{
+
+    color: white;
+}
+
+/*
+.nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>.active>a:focus {
+  color: #fff;
+  background-color: #08c;
+}
+
+*/
+
+/*This Below CSS is used for changing active button and hover css*/
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: rgba(154, 207, 211, 0.58);
+}
+
+.navbar-form .form-control {
+
+        width: 170px;
+}
